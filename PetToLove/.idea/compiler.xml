@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <module name="pet-to-love" />
 =======
+=======
+        <module name="pet-to-love" />
+>>>>>>> RegisterView
         <module name="PetToLove" />
 >>>>>>> LoginView
       </profile>
