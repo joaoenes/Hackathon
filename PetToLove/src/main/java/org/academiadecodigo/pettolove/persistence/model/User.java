@@ -8,9 +8,9 @@ import java.util.List;
 @Table(name = "user")
 public class User extends AbstractModel {
 
-    private String Name;
+    private String name;
 
-    private String userName;
+    private String username;
 
     private String email;
 
@@ -29,11 +29,11 @@ public class User extends AbstractModel {
 
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public void addAnimal(Animal animal){
@@ -47,12 +47,12 @@ public class User extends AbstractModel {
         animal.setUser(null);
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String userName) {
+        this.username = userName;
     }
 
     public String getEmail() {
