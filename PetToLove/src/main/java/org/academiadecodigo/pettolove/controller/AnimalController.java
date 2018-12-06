@@ -1,6 +1,7 @@
 package org.academiadecodigo.pettolove.controller;
 
 import org.academiadecodigo.pettolove.services.AnimalService;
+import org.academiadecodigo.pettolove.services.UserService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,5 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AnimalController {
 
     private AnimalService animalService;
+    private UserService userService;
 
+    
 }
