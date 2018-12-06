@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pet-to-love" />
+<<<<<<< HEAD
+=======
+        <module name="PetToLove" />
+>>>>>>> converts
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
