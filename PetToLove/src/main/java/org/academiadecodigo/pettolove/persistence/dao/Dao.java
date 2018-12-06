@@ -1,6 +1,6 @@
 package org.academiadecodigo.pettolove.persistence.dao;
 
-import org.academiadecodigo.pettolove.persistence.model.AbstractModel;
+import org.academiadecodigo.pettolove.persistence.model.Model;
 
 import java.util.List;
 

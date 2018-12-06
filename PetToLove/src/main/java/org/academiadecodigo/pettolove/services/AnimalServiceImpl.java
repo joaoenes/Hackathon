@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class AnimalServiceImpl implements AnimalService{
+public class AnimalServiceImpl implements AnimalService {
 
     private AnimalDao animalDao;
 

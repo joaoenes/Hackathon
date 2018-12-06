@@ -96,7 +96,7 @@ public class UserServiceImpl implements UserService {
             throw new RuntimeException("Animal not found");
         }
 
-        user.remodeAnimal(animal);
+        user.removeAnimal(animal);
         userDao.saveOrUpdate(user);
     }
 }
