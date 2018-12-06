@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidGradleBuildConfiguration">
-    <option name="USE_CONFIGURATION_ON_DEMAND" value="false" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a37fd0f-81e4-4516-bdb6-a39a8d5f9ae9" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="2f530b15-2fc7-4438-b1c8-3a27a1e0bb46" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +20,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1634">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
+=======
+      <file leaf-file-name="AnimalService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AnimalDTOToAnimal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/AnimalDTOToAnimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+>>>>>>> converts
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> dev
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="AnimalController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/controller/AnimalController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,11 +58,28 @@
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="AnimalServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+>>>>>>> dev
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,6 +93,46 @@
                 <element signature="e#774#775#0" expanded="true" />
                 <element signature="e#1037#1038#0" expanded="true" />
                 <element signature="e#1087#1088#0" expanded="true" />
+=======
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+=======
+      <file leaf-file-name="UserDTOToUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/UserDTOToUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+>>>>>>> converts
+>>>>>>> dev
               </folding>
             </state>
           </provider>
@@ -57,45 +140,30 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-      </list>
-    </option>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../Projectos/MyFirstGame" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../Projectos/drop-game" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../outrasCenas/Games/Asteroids" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../outrasCenas/Games/drop-game" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence/persistence-prod.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/AnimalDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalServiceImpl.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java" />
+=======
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/Service.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/controller/AnimalController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/controller/UserController.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/AbstractConverters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/AnimalToAnimalDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/UserToUserDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/UserDTOToUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/AnimalDTOToAnimal.java" />
+>>>>>>> converts
+>>>>>>> dev
       </list>
     </option>
   </component>
@@ -105,106 +173,132 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
+<<<<<<< HEAD
+=======
     <option name="y" value="23" />
+>>>>>>> converts
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+>>>>>>> converts
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pettolove" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="pettolove" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+=======
             </path>
             <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pettolove" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+>>>>>>> dev
+            </path>
+            <path>
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pettolove" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> converts
               <item name="converters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PetToLove" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
               <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pettolove" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pettolove" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pet-to-love" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PetToLove" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pettolove" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> converts
+>>>>>>> dev
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+>>>>>>> converts
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,55 +360,96 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5a37fd0f-81e4-4516-bdb6-a39a8d5f9ae9" name="Default" comment="" />
-      <created>1544112103138</created>
+      <changelist id="2f530b15-2fc7-4438-b1c8-3a27a1e0bb46" name="Default" comment="" />
+      <created>1544116400819</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1544116400819</updated>
+      <workItem from="1544116406147" duration="2874000" />
+=======
       <updated>1544112103138</updated>
       <workItem from="1544112104732" duration="3571000" />
+      <workItem from="1544117444588" duration="1981000" />
+>>>>>>> converts
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4902000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2874000" />
+=======
+    <option name="totallyTimeSpent" value="5552000" />
+>>>>>>> converts
+>>>>>>> dev
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005325" side_tool="true" weight="0.32822084" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info anchor="right" id="Database" />
+=======
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.32822084" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+>>>>>>> converts
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49946752" weight="0.32822084" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Persistence" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32924336" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+=======
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> converts
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924336" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946752" weight="0.32822084" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +458,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2210">
@@ -346,6 +487,93 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/controller/UserController.java">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/AnimalDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/SpringBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence/persistence-test.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence/persistence-dev.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence.xml">
+>>>>>>> dev
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
@@ -478,6 +706,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence/persistence-test.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -549,6 +778,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> dev
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -572,74 +803,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="38">
           <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="38">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/AnimalDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/AbstractDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="38">
           <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="40">
+=======
+        <state relative-caret-position="38">
+>>>>>>> dev
           <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/dao/AnimalDao.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="80">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+=======
+        <state relative-caret-position="38">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+>>>>>>> converts
+>>>>>>> dev
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="80">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+>>>>>>> converts
+>>>>>>> dev
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+<<<<<<< HEAD
+        <state relative-caret-position="198">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+=======
+        <state relative-caret-position="38">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/services/AnimalService.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="80">
+=======
+        <state relative-caret-position="76">
+>>>>>>> dev
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/SpringBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="80">
+=======
+        <state relative-caret-position="76">
+>>>>>>> dev
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1634">
@@ -651,12 +946,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/AbstractConverters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/AnimalToAnimalDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/UserToUserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/UserDTOToUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+>>>>>>> dev
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -669,6 +1001,15 @@
             <element signature="e#774#775#0" expanded="true" />
             <element signature="e#1037#1038#0" expanded="true" />
             <element signature="e#1087#1088#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/converters/AnimalDTOToAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> converts
+>>>>>>> dev
           </folding>
         </state>
       </provider>
