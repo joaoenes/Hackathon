@@ -1,6 +1,7 @@
 package org.academiadecodigo.pettolove.command;
 
 import org.academiadecodigo.pettolove.persistence.model.AnimalType;
+import org.academiadecodigo.pettolove.persistence.model.Gender;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -11,6 +12,9 @@ public class AnimalDTO {
 
     private Integer id;
     private UserDTO userDTO;
+    private String imageLink;
+    private Gender gender;
+    private Integer likes;
 
     @Size(max = 64)
     @Pattern(regexp = "[a-zA-Z ]*$")
@@ -25,6 +29,30 @@ public class AnimalDTO {
 
     @Size(max = 255)
     private String description;
+
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
+    public Integer getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Integer likes) {
+        this.likes = likes;
+    }
 
     public Integer getId() {
         return id;
@@ -79,6 +107,9 @@ public class AnimalDTO {
         return "AnimalDTO{" +
                 "id=" + id +
                 ", userDTO=" + userDTO +
+                ", imageLink='" + imageLink + '\'' +
+                ", gender=" + gender.toString() +
+                ", likes=" + likes +
                 ", name='" + name + '\'' +
                 ", animalType=" + animalType +
                 ", breed='" + breed + '\'' +
@@ -86,3 +117,4 @@ public class AnimalDTO {
                 '}';
     }
 }
+

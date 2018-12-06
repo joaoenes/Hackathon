@@ -20,6 +20,36 @@ public class Animal extends AbstractModel {
 
     private AnimalType animalType;
 
+    private Integer likes;
+
+    private Gender gender;
+
+    private String imageLink;
+
+    public Integer getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Integer likes) {
+        this.likes = likes;
+    }
+
+    public Gender getGender() {
+        return gender;
+    }
+
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
+    }
+
     public String getBreed() {
         return breed;
     }
@@ -51,8 +81,7 @@ public class Animal extends AbstractModel {
     public void setDescription(String description) {
         this.description = description;
     }
-     /*@ManyToOne
-    @ForeignKey(name = "id")*/
+
     public AnimalType getAnimalType() {
         return animalType;
     }
@@ -60,4 +89,6 @@ public class Animal extends AbstractModel {
     public void setAnimalType(AnimalType animalType) {
         this.animalType = animalType;
     }
+
+
 }
