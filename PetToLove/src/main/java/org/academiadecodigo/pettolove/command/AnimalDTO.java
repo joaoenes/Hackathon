@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 public class AnimalDTO {
 
     private Integer id;
-    private Integer userID;
+    private UserDTO userDTO;
 
     @Size(max = 64)
     @Pattern(regexp = "[a-zA-Z ]*$")
@@ -34,12 +34,12 @@ public class AnimalDTO {
         this.id = id;
     }
 
-    public Integer getUserID() {
-        return userID;
+    public UserDTO getUserDTO() {
+        return userDTO;
     }
 
-    public void setUserID(Integer userID) {
-        this.userID = userID;
+    public void setUserDTO(UserDTO userDTO) {
+        this.userDTO = userDTO;
     }
 
     public String getName() {
@@ -78,7 +78,7 @@ public class AnimalDTO {
     public String toString() {
         return "AnimalDTO{" +
                 "id=" + id +
-                ", userID=" + userID +
+                ", userDTO=" + userDTO +
                 ", name='" + name + '\'' +
                 ", animalType=" + animalType +
                 ", breed='" + breed + '\'' +
