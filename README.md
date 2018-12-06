@@ -2,8 +2,12 @@
 
 ## Charlie Team
 
-Ana Jesus\n
+Ana Jesus
+
 André Melo
+
 Firmino Gonçalves
+
 João Enes
+
 Vasco Enes
