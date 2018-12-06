@@ -7,6 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pet-to-love" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        <module name="PetToLove" />
+>>>>>>> converts
+>>>>>>> b1682f887bcac9a92e3aa326bdad8f55921eb922
+>>>>>>> 68edfc5060a9eb32c5fbbf4ec40ea7bdb64b4d84
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
