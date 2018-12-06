@@ -1,4 +1,6 @@
 package org.academiadecodigo.pettolove.persistence.dao;
 
-public class AnimalDao extends AbstractDao {
+import org.academiadecodigo.pettolove.persistence.model.Animal;
+
+public interface AnimalDao extends Dao<Animal> {
 }

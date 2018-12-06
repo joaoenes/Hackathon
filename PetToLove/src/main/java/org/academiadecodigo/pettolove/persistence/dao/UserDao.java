@@ -1,4 +1,6 @@
 package org.academiadecodigo.pettolove.persistence.dao;
 
-public class UserDao extends AbstractDao {
+import org.academiadecodigo.pettolove.persistence.model.User;
+
+public interface UserDao extends Dao<User> {
 }
