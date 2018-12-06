@@ -16,8 +16,17 @@ public class Animal extends AbstractModel {
 
     private String description;
 
+    private String breed;
 
     private AnimalType animalType;
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
 
     public User getUser() {
         return user;
