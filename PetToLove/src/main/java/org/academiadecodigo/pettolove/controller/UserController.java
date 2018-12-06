@@ -59,10 +59,10 @@ public class UserController {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
 
-        User savedUser = userDto.save(userDOToUser.convert(userDto));
+        User savedUser = userService.save(userDTOToUser.convert(userDto));
 
         // get help from the framework building the path for the newly created resource
-        UriComponents uriComponents = uriComponentsBuilder.path("/api/customer/" + saveduser.getId()).build();
+        UriComponents uriComponents = uriComponentsBuilder.path("/api/customer/" + savedUser.getId()).build();
 
         // set headers with the created path
         HttpHeaders headers = new HttpHeaders();
@@ -90,5 +90,12 @@ public class UserController {
 
         userService.save(userDTOToUser.convert(userDto));
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @RequestMapping(method = RequestMethod.DELETE, path = "/{id}")
+    public ResponseEntity<UserDTO> deleteCustomer(@PathVariable Integer id) {
+
+            userService.delete(id);
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
