@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff0fbf2-b39d-4e03-935b-44f8589e476b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,19 +45,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractModel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AbstractModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state relative-caret-position="495">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
                 <element signature="e#662#663#0" expanded="true" />
                 <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
                 <element signature="e#777#778#0" expanded="true" />
                 <element signature="e#814#815#0" expanded="true" />
                 <element signature="e#849#850#0" expanded="true" />
@@ -78,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="605">
+              <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
@@ -97,10 +92,10 @@
                 <element signature="e#720#721#0" expanded="true" />
                 <element signature="e#774#775#0" expanded="true" />
                 <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +104,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="41">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#621#622#0" expanded="true" />
@@ -142,11 +137,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AnimalType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,16 +160,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Animal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java" />
       </list>
     </option>
   </component>
@@ -323,15 +335,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544117658584</updated>
-      <workItem from="1544117661674" duration="3144000" />
+      <workItem from="1544117661674" duration="3751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3144000" />
+    <option name="totallyTimeSpent" value="3751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="497" y="141" width="1372" height="919" extended-state="0" />
+    <frame x="135" y="23" width="1768" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -354,8 +366,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962406" />
-      <window_info active="true" anchor="right" id="Bean Validation" visible="true" weight="0.13759398" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19235227" />
+      <window_info active="true" anchor="right" id="Bean Validation" visible="true" weight="0.106025495" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
@@ -374,10 +386,49 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44ff0905-8ca5-41e1-956b-9841b5fc0ef1/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="41">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#621#622#0" expanded="true" />
@@ -408,31 +459,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AnimalType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/44ff0905-8ca5-41e1-956b-9841b5fc0ef1/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/AbstractModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="495">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
             <element signature="e#662#663#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
             <element signature="e#777#778#0" expanded="true" />
             <element signature="e#814#815#0" expanded="true" />
             <element signature="e#849#850#0" expanded="true" />
@@ -442,32 +488,6 @@
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1069#1070#0" expanded="true" />
             <element signature="e#1113#1114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/academiadecodigo/pettolove/persistence/model/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
           </folding>
         </state>
       </provider>

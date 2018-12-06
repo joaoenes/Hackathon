@@ -7,7 +7,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @MappedSuperclass
-public abstract class AbstractModel {
+public abstract class AbstractModel implements Model {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,12 +23,14 @@ public abstract class AbstractModel {
     private Date updateTime;
 
 
+    @Override
     public Integer getId() {
         return id;
     }
 
+    @Override
     public void setId(Integer id) {
-        this.id = id;
+        this.id= id;
     }
 
     public Integer getVersion() {
