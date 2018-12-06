@@ -1,4 +1,13 @@
 package org.academiadecodigo.pettolove.persistence.model;
 
-public class AnimalType extends AbstractModel{
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "animalType")
+public class AnimalType{
+
+
+    private String animalType;
+
 }
