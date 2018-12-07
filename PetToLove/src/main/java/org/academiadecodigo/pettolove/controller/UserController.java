@@ -78,7 +78,18 @@ public class UserController {
         return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
 
-        User savedUser = userService.save(userDTOToUser.convert(userDto));
+        User user = userDTOToUser.convert(userDto);
+
+        List<User> users = userService.list();
+
+        for(User username:users) {
+
+            if (user.getUsername().equals(username.getUsername())) {
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            }
+        }
+
+        User savedUser = userService.save(user);
 
         // get help from the framework building the path for the newly created resource
         UriComponents uriComponents = uriComponentsBuilder.path("/user/" + savedUser.getId()).build();
