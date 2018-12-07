@@ -1,7 +1,6 @@
 package org.academiadecodigo.pettolove.command;
 
 import org.academiadecodigo.pettolove.persistence.model.AnimalType;
-import org.academiadecodigo.pettolove.persistence.model.User;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -11,9 +10,11 @@ import javax.validation.constraints.Size;
 public class AnimalDTO {
 
     private Integer id;
-
     private UserDTO userDTO;
-
+    private String imageLink;
+    private String gender;
+    private String age;
+    private Integer likes;
 
     @Size(max = 64)
     @Pattern(regexp = "[a-zA-Z ]*$")
@@ -29,6 +30,38 @@ public class AnimalDTO {
     @Size(max = 255)
     private String description;
 
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public Integer getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Integer likes) {
+        this.likes = likes;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -37,14 +70,12 @@ public class AnimalDTO {
         this.id = id;
     }
 
-
     public UserDTO getUserDTO() {
         return userDTO;
     }
 
     public void setUserDTO(UserDTO userDTO) {
         this.userDTO = userDTO;
-
     }
 
     public String getName() {
@@ -84,6 +115,9 @@ public class AnimalDTO {
         return "AnimalDTO{" +
                 "id=" + id +
                 ", userDTO=" + userDTO +
+                ", imageLink='" + imageLink + '\'' +
+                ", gender=" + gender.toString() +
+                ", likes=" + likes +
                 ", name='" + name + '\'' +
                 ", animalType=" + animalType +
                 ", breed='" + breed + '\'' +

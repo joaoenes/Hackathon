@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponents;
@@ -19,6 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
+@Controller
 @RestController
 @RequestMapping("/user")
 public class UserController {
@@ -73,7 +76,7 @@ public class UserController {
     public ResponseEntity<?> addUser(@Valid @RequestBody UserDTO userDto, BindingResult bindingResult, UriComponentsBuilder uriComponentsBuilder) {
 
         if (bindingResult.hasErrors() || userDto.getId() != null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
 
         User savedUser = userService.save(userDTOToUser.convert(userDto));
@@ -110,9 +113,23 @@ public class UserController {
     }
 
     @RequestMapping(method = RequestMethod.DELETE, path = "/{id}")
-    public ResponseEntity<UserDTO> deleteCustomer(@PathVariable Integer id) {
+    public ResponseEntity<UserDTO> deleteUser(@PathVariable Integer id) {
 
             userService.delete(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    @RequestMapping(method = RequestMethod.GET, path = {"/list", "/", ""})
+    public ResponseEntity<List<UserDTO>> listUsersRest() {
+
+        System.out.println("List all users");
+
+        List<UserDTO> userDTOS = new ArrayList<>();
+
+        for (User user : userService.list()) {
+            userDTOS.add(userToUserDTO.convert(user));
+        }
+
+        return new ResponseEntity<>(userDTOS, HttpStatus.OK);
     }
 }

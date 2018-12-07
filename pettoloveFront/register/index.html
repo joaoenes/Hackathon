@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -13,13 +12,15 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <meta charset="UTF-8" />
+    <script src="registerUser.js"></script>
+    <script src="../login/login.js"></script>
 
     <title>PetToLove</title>
 </head>
 
 <body>
 
-    <form action="action_page.php">
+    <form>
             <div class="img-container">
                     <img src="../images/logo.jpg" alt="Avatar" class="avatar">
                   </div>
@@ -29,19 +30,22 @@
             <hr>
 
             <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
+            <input type="text" class="email" placeholder="Enter email..." name="email" required>
 
-            <label for="psw"><b>Username</b></label>
-            <input type="password" placeholder="Enter Password" name="username" required>
+            <label for="name"><b>Name</b></label>
+            <input type="text" class="name" placeholder="Enter your name..."  name="name" required>
+
+            <label for="username"><b>Username</b></label>
+            <input type="text" class="username" placeholder="Enter Username..."  name="usarname" required>
 
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" class="password" placeholder="Enter password..." name="password" required>
 
             <hr>
 
             <p>By creating an account you agree to our <a href="#">No, we don't have Terms & Privacy. It's all about freedom!</a></p>
-           <a href="../homepage/home.html">
-            <button type="submit" class="registerbtn">Register</button></a>
+           
+            <button type="button" class="registerbtn" onclick="addUser()">Register</button>
         </div>
     
         <div class="container signin">
