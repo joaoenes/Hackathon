@@ -29,6 +29,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User get(Integer id) {
+        System.out.println("Service");
         return userDao.findById(id);
     }
 

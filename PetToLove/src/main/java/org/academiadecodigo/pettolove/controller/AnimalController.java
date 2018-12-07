@@ -49,6 +49,8 @@ public class AnimalController {
         this.animalToAnimalDTO = animalToAnimalDTO;
     }
 
+
+
     @RequestMapping(method = RequestMethod.GET, path = "/{uid}/animal")
     public ResponseEntity<List<AnimalDTO>> listUserAnimals(@PathVariable Integer uid) {
 

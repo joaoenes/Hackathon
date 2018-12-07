@@ -19,10 +19,6 @@
     <!-- Base package to search for spring beans -->
     <context:component-scan base-package="org.academiadecodigo.pettolove"/>
 
-    <mvc:interceptors>
-        <bean class="org.academiadecodigo.pettolove.interceptor.LogRequestsInterceptor"/>
-    </mvc:interceptors>
-
     <import resource="persistence.xml"/>
     <import resource="presentation.xml"/>
 

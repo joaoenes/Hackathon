@@ -15,6 +15,8 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
@@ -40,13 +42,28 @@ public class UserController {
         this.userToUserDTO = userToUserDTO;
     }
 
+    @RequestMapping(method = RequestMethod.GET, path = {"/", ""})
+    public ResponseEntity<List<UserDTO>> listUsers() {
+
+        System.out.println("List all users");
+
+        List<UserDTO> userDTOS = new ArrayList<>();
+
+        for (User user : userService.list()) {
+            userDTOS.add(userToUserDTO.convert(user));
+        }
+
+        return new ResponseEntity<>(userDTOS, HttpStatus.OK);
+    }
+
     @RequestMapping(method = RequestMethod.GET, path = "/{id}")
     public ResponseEntity<UserDTO> showUser(@PathVariable Integer id) {
 
+        System.out.println("In controller");
         User user = userService.get(id);
 
         if (user == null) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
 
         return new ResponseEntity<>(userToUserDTO.convert(user), HttpStatus.OK);
@@ -62,7 +79,7 @@ public class UserController {
         User savedUser = userService.save(userDTOToUser.convert(userDto));
 
         // get help from the framework building the path for the newly created resource
-        UriComponents uriComponents = uriComponentsBuilder.path("/api/customer/" + savedUser.getId()).build();
+        UriComponents uriComponents = uriComponentsBuilder.path("/user/" + savedUser.getId()).build();
 
         // set headers with the created path
         HttpHeaders headers = new HttpHeaders();
