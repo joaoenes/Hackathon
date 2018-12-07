@@ -1,7 +1,6 @@
 package org.academiadecodigo.pettolove.command;
 
 import org.academiadecodigo.pettolove.persistence.model.AnimalType;
-import org.academiadecodigo.pettolove.persistence.model.Gender;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

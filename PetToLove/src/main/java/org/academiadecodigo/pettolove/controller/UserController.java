@@ -17,6 +17,8 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @Controller
@@ -102,10 +104,17 @@ public class UserController {
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @RequestMapping(method = RequestMethod.GET, path = {"/list"})
-    public String listUsers(Model model) {
+    @RequestMapping(method = RequestMethod.GET, path = {"/list", "/", ""})
+    public ResponseEntity<List<UserDTO>> listUsersRest() {
 
-        model.addAttribute("users",userToUserDTO.convert(userService.list())) ;
-        return "user/list";
+        System.out.println("List all users");
+
+        List<UserDTO> userDTOS = new ArrayList<>();
+
+        for (User user : userService.list()) {
+            userDTOS.add(userToUserDTO.convert(user));
+        }
+
+        return new ResponseEntity<>(userDTOS, HttpStatus.OK);
     }
 }
