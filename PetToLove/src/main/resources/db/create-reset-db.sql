@@ -46,16 +46,17 @@ CREATE TABLE animal(
     breed VARCHAR(255),
     likes INTEGER,
     gender VARCHAR(255),
+    age VARCHAR(255),
     imageLink VARCHAR(255),
     FOREIGN KEY(user) REFERENCES user(id),
     FOREIGN KEY(animalType) REFERENCES animalType(id),
     PRIMARY KEY(id)
 );
 
-INSERT INTO animal(ID, CREATIONTIME, UPDATETIME, VERSION, NAME, USER, DESCRIPTION, ANIMALTYPE, BREED, LIKES, GENDER, IMAGELINK) VALUES
-  (1, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Spot', 1, 'I have a spot', 2, 'normal dog', 100, 'undefined', null),
-  (2, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Dot', 1, 'I have a dot', 1, 'normal cat', 200, 'female', null),
-  (3, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Niki', 2, 'I have a bad name', 2, 'not normal dog', 150, 'male', null),
-  (4, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Paw', 2, 'My name is Paw', 1, 'not normal cat', 350, 'male', null);
+INSERT INTO animal(ID, CREATIONTIME, UPDATETIME, VERSION, NAME, USER, DESCRIPTION, ANIMALTYPE, BREED, LIKES, GENDER, AGE, IMAGELINK) VALUES
+  (1, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Spot', 1, 'I have a spot', 2, 'normal dog', 100, 'undefined', '2 months', ''),
+  (2, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Dot', 1, 'I have a dot', 1, 'normal cat', 200, 'female', '2', ''),
+  (3, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Niki', 2, 'I have a bad name', 2, 'not normal dog', 150, 'male', '3', ''),
+  (4, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 1, 'Paw', 2, 'My name is Paw', 1, 'not normal cat', 350, 'male', '1', '');
 
 

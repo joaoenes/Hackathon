@@ -13,7 +13,8 @@ public class AnimalDTO {
     private Integer id;
     private UserDTO userDTO;
     private String imageLink;
-    private Gender gender;
+    private String gender;
+    private String age;
     private Integer likes;
 
     @Size(max = 64)
@@ -38,12 +39,20 @@ public class AnimalDTO {
         this.imageLink = imageLink;
     }
 
-    public Gender getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(Gender gender) {
+    public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 
     public Integer getLikes() {

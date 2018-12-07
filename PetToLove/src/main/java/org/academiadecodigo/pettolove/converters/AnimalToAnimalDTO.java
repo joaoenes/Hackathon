@@ -26,7 +26,11 @@ public class AnimalToAnimalDTO extends AbstractConverters<Animal, AnimalDTO> {
         animalDTO.setUserDTO(userToUserDTO.convert(animal.getUser()));
         animalDTO.setBreed(animal.getBreed());
         animalDTO.setAnimalType(animal.getAnimalType());
+        animalDTO.setGender(animal.getGender());
+        animalDTO.setAge(animal.getAge());
         animalDTO.setDescription(animal.getDescription());
+        animalDTO.setLikes(animal.getLikes());
+        animalDTO.setImageLink(animal.getImageLink());
 
         return animalDTO;
     }
