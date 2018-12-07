@@ -61,7 +61,7 @@ public class UserController {
     public ResponseEntity<?> addUser(@Valid @RequestBody UserDTO userDto, BindingResult bindingResult, UriComponentsBuilder uriComponentsBuilder) {
 
         if (bindingResult.hasErrors() || userDto.getId() != null) {
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
 
         User savedUser = userService.save(userDTOToUser.convert(userDto));
