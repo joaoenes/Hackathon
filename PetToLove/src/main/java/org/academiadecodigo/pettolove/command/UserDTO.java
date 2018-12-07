@@ -1,5 +1,6 @@
 package org.academiadecodigo.pettolove.command;
 
+import javax.persistence.UniqueConstraint;
 import javax.validation.constraints.*;
 
 public class UserDTO {
