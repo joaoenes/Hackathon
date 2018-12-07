@@ -19,13 +19,11 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Config" removed="false" profiles="prod">
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/persistence/persistence-dev.xml</file>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/persistence/persistence-prod.xml</file>
-          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/persistence/persistence-test.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/persistence.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/presentation.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/spring-config.xml</file>
         </fileset>
       </configuration>
     </facet>
