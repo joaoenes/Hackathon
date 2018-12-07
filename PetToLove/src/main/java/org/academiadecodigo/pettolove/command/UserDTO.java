@@ -1,5 +1,6 @@
 package org.academiadecodigo.pettolove.command;
 
+import javax.persistence.UniqueConstraint;
 import javax.validation.constraints.*;
 
 public class UserDTO {
@@ -9,13 +10,13 @@ public class UserDTO {
 
     @NotBlank(message = "Username is mandatory.")
     @NotNull(message = "Username is mandatory")
-    @Size(min = 6, max = 20, message = "Username must contain between 6 and 20 characters.")
+    @Size(min = 3, max = 20, message = "Username must contain between 6 and 20 characters.")
     @Pattern(regexp = "[a-zA-Z0-9_\\-.]*$", message = "Username contains invalid characters.")
     private String username;
 
     @NotNull(message = "Password is mandatory.")
     @NotBlank(message = "Password is mandatory.")
-    @Size(min = 6, max = 64)
+    @Size(min = 4, max = 64)
     private String password;
 
     @NotBlank(message = "Name is mandatory.")
