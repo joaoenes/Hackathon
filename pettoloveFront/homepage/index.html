@@ -1,42 +1,84 @@
 <html>
-  <head>
-    <title>ola</title>
-    <link rel="stylesheet" href="homepage.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="container-fluid">
-        <div class="img-container">
-            <img src="../images/logo.jpg" alt="Avatar" class="avatar">
-            <h1>Feed</h1>
+
+<head>
+  <title>PetToLove</title>
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="../userEdit/index.html"></script>
+  <div class="music">
+    <audio controls autoplay loop>
+      <source src="../music/music.mp3" type="audio/ogg" class="music">
+      <embed src="../music/music.mp3" autostart="true" loop="true" hidden="false">
+    </audio>
+  </div>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="img-container">
+      <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+      <p class="bio">Find your true love.</p>
+      <p></p>
+      <div class="input-group mb-3 ">
+        <div class="input-group-prepend">
+          <a href="../userEdit/index.html"> <button type="button" class="btn btn-info">EditProfile</button>
+            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
+          </a>
         </div>
-      <form >
+        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+      </div>
+      <p></p>
+      <p></p>
+    </div>
+    <form>
       <div class="row">
-        
+
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="../images/oi.png" style="width:100%"/>
+          <img src="../images/oi.png" style="width:100%" />
           <div style="text-align:center">Descrição 1</div>
         </div>
-        
+
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="../images/ossos.jpg" style="width:100%"/>
+          <img src="../images/ossos.jpg" style="width:100%" />
           <div style="text-align:center">Descrição 2</div>
         </div>
-        
+
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="../images/download.jpeg" style="width:100%"/>
+          <img src="../images/download.jpeg" style="width:100%" />
           <div style="text-align:center">Descrição 3</div>
         </div>
-        
+
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <img src="../images/barata-1.jpg" style="width:100%"/>
+          <img src="../images/barata-1.jpg" style="width:100%" />
           <div style="text-align:center">Descrição 4</div>
         </div>
-      
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img src="../images/chi.jpg" style="width:100%" />
+          <div style="text-align:center">Descrição 4</div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img src="../images/camelo.jpg" style="width:100%" />
+          <div style="text-align:center">Descrição 4</div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img src="../images/cabra.jpg" style="width:100%" />
+          <div style="text-align:center">Descrição 4</div>
+        </div>
+
+
       </div>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
