@@ -7,6 +7,7 @@ import javax.persistence.*;
 public class Animal extends AbstractModel {
 
     @ManyToOne
+    @JoinColumn(name = "user")
     private User user;
 
     private String name;
@@ -16,6 +17,7 @@ public class Animal extends AbstractModel {
     private String breed;
 
     @OneToOne
+    @JoinColumn(name = "animalType")
     private AnimalType animalType;
 
     private Integer likes;

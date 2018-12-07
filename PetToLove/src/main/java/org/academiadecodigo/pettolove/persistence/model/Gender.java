@@ -2,8 +2,8 @@ package org.academiadecodigo.pettolove.persistence.model;
 
 public enum Gender {
 
-    MALE("Male"),
-    FEMALE("Female");
+    MALE("male"),
+    FEMALE("female");
 
     String gender;
 
