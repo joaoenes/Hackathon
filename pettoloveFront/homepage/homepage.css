@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+.avatar{
+    width: 5%;
+    border-radius: 20%;
+    margin-left: 50%;
+    margin-top: 2%;
+  }
+  .bio{
+    margin-left:48%
+  }
+
+  .music{
+    margin-left: 43%;
+
+  }
