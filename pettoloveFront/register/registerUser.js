@@ -9,7 +9,6 @@ function addUser(){
         url: 'http://localhost:8080/pettolove/user/',
         type: 'POST',
         data: JSON.stringify({
-            id: '',
             email: email,
             name: name,
             username: username,
