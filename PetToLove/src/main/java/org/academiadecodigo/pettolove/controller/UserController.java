@@ -98,7 +98,7 @@ public class UserController {
     }
 
     @RequestMapping(method = RequestMethod.DELETE, path = "/{id}")
-    public ResponseEntity<UserDTO> deleteCustomer(@PathVariable Integer id) {
+    public ResponseEntity<UserDTO> deleteUser(@PathVariable Integer id) {
 
             userService.delete(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
