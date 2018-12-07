@@ -12,32 +12,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="login.js"></script>
     <meta charset="UTF-8" />
 
     <title>PetToLove</title>
 </head>
 
 <body> 
-    <form >
-                <div class="img-container">
-                  <img src="../images/logo.jpg" alt="Avatar" class="avatar">
-                </div>
-              
-                <div class="container">
-                  <label for="username"><b>Username</b></label>
-                  <input class= "username"type="text" placeholder="Enter Username" name="username" required>
-              
-                  <label for="psw"><b>Password</b></label>
-                  <input class="password" type="password" placeholder="Enter Password" name="psw" required>
-            
-                 <a href="../homepage/home.html"> <button onClick='loginUser()'type="button">Login</button></a> 
-               </div></form><div class="container">
-                  <a href="../register/index.html"><button onClick='goToAdd()' type="button">Register</button></a> 
-                  <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                  </label>
-                </div>
-             
+    <form>
+    <div class="img-container">
+        <img src="../images/logo.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="username"><b>Username</b></label>
+        <input class="username" type="text" placeholder="Enter Username" name="username" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input class="password" type="password" placeholder="Enter Password" name="psw" required>
+
+        <a> <button onClick='loginUser()' type="button">Login</button></a>
+    </div>
+</form>
+<form>
+    <div class="container">
+        <a href="../register/index.html"><button type="button">Register</button></a>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+</form>
 </body>
 
 </html>
