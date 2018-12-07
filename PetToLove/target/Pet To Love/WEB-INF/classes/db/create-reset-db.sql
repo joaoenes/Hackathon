@@ -5,7 +5,7 @@ CREATE DATABASE pettolove;
 USE pettolove;
 
 CREATE TABLE user(
-    id INTEGER,
+    id INTEGER NOT NULL AUTO_INCREMENT,
     creationTime DATETIME,
     updateTime DATETIME,
     version INTEGER,
@@ -18,14 +18,14 @@ CREATE TABLE user(
 );
 
 INSERT INTO user(ID, CREATIONTIME, UPDATETIME, VERSION, NAME, USERNAME, EMAIL, PHONE, PASSWORD) VALUES
-  (1, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 0, 'Firmino', 'firmino', 'mail@gmail.com', '999777888', '1234'),
-  (2, TIMESTAMP '2017-10-10 08:45:56.481', TIMESTAMP '2017-10-10 08:45:56.481', 0, 'João', 'joao', 'mail@gmail.com', '999777888', '1234'),
-  (3, TIMESTAMP '2017-10-10 08:45:56.482', TIMESTAMP '2017-10-10 08:45:56.482', 0, 'Vasco', 'vasco', 'mail@gmail.com', '999777888', '1234'),
-  (4, TIMESTAMP '2017-10-10 08:45:56.482', TIMESTAMP '2017-10-10 08:45:56.482', 0, 'Andre', 'andre', 'mail@gmail.com', '999777888', '1234'),
-  (5, TIMESTAMP '2017-10-10 08:45:56.482', TIMESTAMP '2017-10-10 08:45:56.482', 0, 'Ana', 'ana', 'mail@gmail.com', '999777888', '1234');
+  (1, TIMESTAMP '2017-10-10 08:45:56.468', TIMESTAMP '2017-10-10 08:45:56.468', 0, 'Firmino', 'firmino', 'mail@gmail.com', '999777888', '1234567890'),
+  (2, TIMESTAMP '2017-10-10 08:45:56.481', TIMESTAMP '2017-10-10 08:45:56.481', 0, 'João', 'joao', 'mail@gmail.com', '999777888', '1234567890'),
+  (3, TIMESTAMP '2017-10-10 08:45:56.482', TIMESTAMP '2017-10-10 08:45:56.482', 0, 'Vasco', 'vasco', 'mail@gmail.com', '999777888', '1234567890'),
+  (4, TIMESTAMP '2017-10-10 08:45:56.482', TIMESTAMP '2017-10-10 08:45:56.482', 0, 'Andre', 'andre', 'mail@gmail.com', '999777888', '1234567890'),
+  (5, TIMESTAMP '2017-10-10 08:45:56.482', TIMESTAMP '2017-10-10 08:45:56.482', 0, 'Ana', 'ana', 'mail@gmail.com', '999777888', '1234567890');
 
 CREATE TABLE animalType(
-    id INTEGER,
+    id INTEGER NOT NULL AUTO_INCREMENT,
     animalType VARCHAR(255),
     PRIMARY KEY(id)
 );
@@ -35,7 +35,7 @@ INSERT INTO animalType(ID, ANIMALTYPE) VALUES
   (2, 'dog');
 
 CREATE TABLE animal(
-    id INTEGER,
+    id INTEGER NOT NULL AUTO_INCREMENT,
     creationTime DATETIME,
     updateTime DATETIME,
     version INTEGER,
