@@ -17,38 +17,27 @@
     <title>PetToLove</title>
 </head>
 
-<body>
-
-        <form action="action_page.php">
-                <div class="imgcontainer">
-                  <img src="img_avatar2.png" alt="Avatar" class="avatar">
+<body> 
+    <form action="action_page.php">
+                <div class="img-container">
+                  <img src="../images/logo.jpg" alt="Avatar" class="avatar">
                 </div>
               
                 <div class="container">
-                  <label for="uname"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
+                  <label for="username"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="username" required>
               
                   <label for="psw"><b>Password</b></label>
                   <input type="password" placeholder="Enter Password" name="psw" required>
-              
-                  <button type="submit">Login</button>
+            
+                 <a href="../homepage/home.html"> <button type="submit">Login</button></a> 
+               </div></form><div class="container">
+                  <a href="../register/index.html"><button type="submit">Register</button></a> 
                   <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                   </label>
                 </div>
-              
-                <div class="container" style="background-color:#f1f1f1">
-                  <button type="button" class="cancelbtn">Cancel</button>
-                  <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
-              </form>
-        <div class="col-sm-12" style="width:100px">
-            <button type='button' class='btn btn-primary mx-auto' style="width: 100px;" onClick='loginUser()'>LogIn</button>
-            <button type='button' class='btn btn-warning mx-auto' style="width: 100px;" onclick='registerUser()'>Register</button>
-
-        </div>
-    </div>
-    </div>
+             
 </body>
 
 </html>
