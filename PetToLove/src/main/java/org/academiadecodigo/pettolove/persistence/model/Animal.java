@@ -1,15 +1,13 @@
 package org.academiadecodigo.pettolove.persistence.model;
 
-import javax.persistence.Entity;
-import javax.persistence.ForeignKey;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "animal")
 public class Animal extends AbstractModel {
 
     @ManyToOne
+    @JoinColumn(name = "user")
     private User user;
 
     private String name;
@@ -18,7 +16,49 @@ public class Animal extends AbstractModel {
 
     private String breed;
 
+    @OneToOne
+    @JoinColumn(name = "animalType")
     private AnimalType animalType;
+
+    private Integer likes;
+
+    private String gender;
+
+    private String age;
+
+    private String imageLink;
+
+    public Integer getLikes() {
+        return likes;
+    }
+
+    public void setLikes(Integer likes) {
+        this.likes = likes;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
+    }
 
     public String getBreed() {
         return breed;
@@ -51,8 +91,7 @@ public class Animal extends AbstractModel {
     public void setDescription(String description) {
         this.description = description;
     }
-     /*@ManyToOne
-    @ForeignKey(name = "id")*/
+
     public AnimalType getAnimalType() {
         return animalType;
     }
@@ -60,4 +99,6 @@ public class Animal extends AbstractModel {
     public void setAnimalType(AnimalType animalType) {
         this.animalType = animalType;
     }
+
+
 }
