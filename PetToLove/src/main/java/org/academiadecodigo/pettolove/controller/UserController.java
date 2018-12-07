@@ -10,7 +10,6 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponents;
@@ -67,7 +66,7 @@ public class UserController {
         User savedUser = userService.save(userDTOToUser.convert(userDto));
 
         // get help from the framework building the path for the newly created resource
-        UriComponents uriComponents = uriComponentsBuilder.path("/api/customer/" + savedUser.getId()).build();
+        UriComponents uriComponents = uriComponentsBuilder.path("/user/" + savedUser.getId()).build();
 
         // set headers with the created path
         HttpHeaders headers = new HttpHeaders();
@@ -98,7 +97,7 @@ public class UserController {
     }
 
     @RequestMapping(method = RequestMethod.DELETE, path = "/{id}")
-    public ResponseEntity<UserDTO> deleteCustomer(@PathVariable Integer id) {
+    public ResponseEntity<UserDTO> deleteUser(@PathVariable Integer id) {
 
             userService.delete(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);

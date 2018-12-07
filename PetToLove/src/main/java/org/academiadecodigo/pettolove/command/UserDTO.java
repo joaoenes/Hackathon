@@ -25,7 +25,6 @@ public class UserDTO {
     private String name;
 
     @Pattern(regexp = "^\\+?[0-9]*$", message = "Phone number contains invalid characters")
-    @Size(min = 9, max = 16)
     private String phone;
 
     @Email
