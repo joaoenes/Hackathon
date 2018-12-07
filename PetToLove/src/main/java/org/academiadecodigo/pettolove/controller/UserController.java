@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponents;
@@ -17,6 +19,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import javax.validation.Valid;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
+@Controller
 @RestController
 @RequestMapping("/user")
 public class UserController {
@@ -97,5 +100,12 @@ public class UserController {
 
             userService.delete(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    @RequestMapping(method = RequestMethod.GET, path = {"/list"})
+    public String listUsers(Model model) {
+
+        model.addAttribute("users",userToUserDTO.convert(userService.list())) ;
+        return "user/list";
     }
 }

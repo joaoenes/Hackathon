@@ -1,9 +1,6 @@
 package org.academiadecodigo.pettolove.persistence.model;
 
-import javax.persistence.Entity;
-import javax.persistence.ForeignKey;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "animal")
@@ -18,6 +15,7 @@ public class Animal extends AbstractModel {
 
     private String breed;
 
+    @OneToOne
     private AnimalType animalType;
 
     private Integer likes;
